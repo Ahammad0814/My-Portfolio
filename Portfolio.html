@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="icon" href="images/A-logo.png">
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+    <body onload="NameAppear()">
+
+    <div id="Home">
+        <div class="my-profile-div">
+        </div>
+
+        <div class="header_div">
+            <div>
+                <p class="Name"><span class="Letter">A</span>hammad.</p>
+            </div>
+            <div class="top-buttons">
+                <a href="#Home" onclick="NameAppear()">Home</a>
+                <a href="#About">About</a>
+                <a href="#Projects">Projects</a>
+            </div>
+            <div>
+                <a class="Contact-a" href="#Contact"><button class="contact-button">Contact Me</button></a>
+            </div>
+            <div>
+                <img class="hamburger-menu" src="images/hamburger-menu.png" onclick="SideMenu()">
+            </div>
+        </div>
+
+        <div class="profile-links">
+            <a href="https://github.com/Ahammad0814" onmouseover="HoverImage()" onmouseout="OriginalImage()"><img class="git-logo" src="images/Git_Logo_Red.png"></a>
+            <a class="linkedin-txt" href="https://www.linkedin.com/in/ahammad-ali-pinjari-bb0491299/">in</a>
+        </div>
+
+        <div class="my-info-div">
+            <p class="info">Hi,<br>My name is &nbsp;<span id="name">Ahammad</span> Ali<br>and I am a passionate<br><span class="name_appear"></span></p>
+        </div>
+
+        <div class="Tech-div">
+            <span class="tech">Tech &nbsp;| </span>
+            <img src="images/Python.png" class="python-tech-logo tech-logo1" onmouseover="TechPercentage('tech-button1', 'tech-text1', 120, 80)" onmouseout="TechPercentageRemove('tech-button1', 'tech-text1')">
+            <img src="images/Mysql.png" class="tech-logo tech-logo2" onmouseover="TechPercentage('tech-button2', 'tech-text2', 112.5, 75)" onmouseout="TechPercentageRemove('tech-button2', 'tech-text2')">
+            <img src="images/Html.png" class="tech-logo tech-logo3" onmouseover="TechPercentage('tech-button3', 'tech-text3', 135, 90)" onmouseout="TechPercentageRemove('tech-button3', 'tech-text3')">
+            <img src="images/Css.png" class="tech-logo tech-logo4" onmouseover="TechPercentage('tech-button4', 'tech-text4', 120, 80)" onmouseout="TechPercentageRemove('tech-button4', 'tech-text4')">
+            <img src="images/Js.png" class="tech-logo tech-logo5" onmouseover="TechPercentage('tech-button5', 'tech-text5', 117, 78)" onmouseout="TechPercentageRemove('tech-button5', 'tech-text5')">
+            <img src="images/Django.png" class="python-tech-logo tech-logo6" onmouseover="TechPercentage('tech-button6', 'tech-text6', 105, 70)" onmouseout="TechPercentageRemove('tech-button6', 'tech-text6')">
+            <img src="images/React.png" class="tech-logo tech-logo7" onmouseover="TechPercentage('tech-button7', 'tech-text7', 105, 70)" onmouseout="TechPercentageRemove('tech-button7', 'tech-text7')">
+            <div class="Tech-buttons">
+                <div>
+                    <button class="tech-button1"></button>
+                    <span class="tech-text1"></span>
+                </div>
+                <div>
+                    <button class="tech-button2"></button>
+                    <span class="tech-text2"></span>
+                </div>
+                <div>
+                    <button class="tech-button3"></button>
+                    <span class="tech-text3"></span>
+                </div>
+                <div>
+                    <button class="tech-button4"></button>
+                    <span class="tech-text4"></span>
+                </div>
+                <div>
+                    <button class="tech-button5"></button>
+                    <span class="tech-text5"></span>
+                </div>
+                <div>
+                    <button class="tech-button6"></button>
+                    <span class="tech-text6"></span>
+                </div>
+                <div>
+                    <button class="tech-button7"></button>
+                    <span class="tech-text7"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="About">
+        <div class="About-Flex-div">
+            <div class="heading">
+                <p id="about_h1">Get To Know More</p>
+                <h1 id="about_h2">About <span>Me</span></h1>
+            </div>
+            <img class="About-Profile" src="images/MyPIC.jpg" >
+            <div class="about_info_div">
+                <p class="about_info">Hello! I'm Ahammad Ali P, a skilled web developer proficient in Python, MySQL, HTML/CSS & JavaScript, React, and Django. 
+                    With a passion for crafting elegant and responsive web solutions, I excel in building dynamic applications that marry functionality with seamless user experiences. 
+                    Let's collaborate and bring your digital vision to life!
+                </p>
+                <p>Email: ahammad0814@gmail.com<br> Phone: 9100573972</p>
+                <a class="cv_button" href="images/New_Ahammad_Resume.pdf" download >Download CV</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="Projects">
+        <h1><span style="color: red;">P</span>rojects</h1>
+
+        <div class="project-main-div">
+            <a href="https://ahammad0814.github.io/Amazon-Clone/#"><img src="images/amazon-logo.png" class="project_logo"></a>
+            <div class="Project-div">
+                <p class="Project-name"><span style="color: red;">Amazon</span> E-Commerece Website</p>
+                <p class="Project-info">The Amazon Ecommerce Website streamlines online shopping with an intuitive interface,
+                    allowing users to effortlessly search, add to cart, place orders, and track their deliveries, 
+                    providing a comprehensive and convenient e-commerce experience.</p>
+                <div id="project-tech">
+                    <img id="p1-1" src="images/Html.png"><img id="p1-2" src="images/Css.png"><img id="p1-3" src="images/Js.png">
+                </div>
+                <div class="Website_link">
+                    <span>Code</span>
+                    <a href="https://github.com/Ahammad0814/Amazon-Clone"><img class="git-logo-A" onmouseover="HoverImage()" onmouseout="OriginalImage()" src="images/Git_Logo_Red.png"></a>
+                    <span>Live Demo</span>
+                    <a href="https://ahammad0814.github.io/Amazon-Clone/#"><img src="images/external-link.png" class="link_img_A"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-main-div project-main-div2">
+            <a href=""><img src="images/Workout-Logo.png" class="project_logo project_Logo"></a>
+            <div class="Project-div">
+                <p class="Project-name">Django<span style="color: red;">Sculpt</span>: Home Fitness</p>
+                <p class="Project-info">Created an inclusive Workout website for all fitness levels, providing dynamic insights into targeted muscle groups through detailed images. 
+                    Featuring voice instructions, the platform offers comprehensive workout journey for users. Tailored for men and women, spanning from beginner to advanced levels</p>
+                <div id="project-tech">
+                    <img class="p2" src="images/Django.png">
+                </div>
+                <div class="Website_link">
+                    <span>Code</span>
+                    <a href=""><img class="git-logo-A" onmouseover="HoverImage()" onmouseout="OriginalImage()" src="images/Git_Logo_Red.png"></a>
+                    <span>Live Demo</span>
+                    <a href=""><img src="images/external-link.png" class="link_img_A"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-main-div">
+            <a href="https://ahammad-sculptzepto-clone.netlify.app/"><img src="images/Zepto-logo.png" class="project_logo"></a>
+            <div class="Project-div">
+                <p class="Project-name"><span style="color: red;">Sculpt</span>Zepto <span style="color: red;">Clone</span>Craft</p>
+                <p class="Project-info">SculptZepto CloneCraft mirrors Zepto's shopping experience, enabling users to browse, select, and purchase unique digital products.
+                     Seamlessly manage items in the cart, track orders, and explore a diverse catalog of creations.
+                      A user-friendly design ensures an engaging and enjoyable journey through the world of SculptZepto CloneCraft.</p>
+                <div id="project-tech">
+                    <img class="p3" src="images/react.png">
+                </div>
+                <div class="Website_link">
+                    <span>Code</span>
+                    <a href=""><img class="git-logo-A" onmouseover="HoverImage()" onmouseout="OriginalImage()" src="images/Git_Logo_Red.png"></a>
+                    <span>Live Demo</span>
+                    <a href="https://ahammad-sculptzepto-clone.netlify.app/"><img src="images/external-link.png" class="link_img_A"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="Contact">
+        <h1>Contact <span style="color: red;">Me</span></h1>
+        <div class="input-box">
+            <form name="submit-to-google-sheet">
+                <input id="name-box" type="text" placeholder="Your Name" name="Name">
+                    <img class="error-msg1" src="images/Errorlogo.png">
+                <input id="mail-box" type="text" placeholder="Your Email" name="Email">
+                    <img class="error-msg2" src="images/Errorlogo.png">
+                <textarea id="message-box" placeholder="Your Message" name="Message"></textarea>
+                    <img class="error-msg3" src="images/Errorlogo.png">
+                <input id="submit-box" type="submit" value="Send Message" onclick="if_ContactEmpty()">
+            </form>
+        </div>
+
+        <button class="direct-contact-btn">Direct Contact</button>
+
+        <div class="direct-contact-div">
+            <p class="direct-contact-title">Click on Text to copy.</p>
+            <p>Phone: &nbsp;&nbsp;<span class="Mobile-number" id="Mobile-number" onclick="DirectContact('Mobile-number')">+91 9100573972</span></p>
+            <p>Email: &nbsp;&nbsp;<span class="Email" id="Email" onclick="DirectContact('Email')">ahammad0814@gmail.com</span></p>
+            <a class="cv_button" href="images/New_Ahammad_Resume.pdf" download >Download CV</a>
+        </div>
+
+        <div class="reason-poll">
+            <form name="submit-to-google-sheet2">
+                <p>Let me know the reason behind your message:</p>
+                <label><input id="radio" type="radio" name="Reason" value="hiring"> Interested in hiring me</label><br>
+                <label><input id="radio" type="radio" name="Reason" value="collaboration"> Seeking collaboration</label><br>
+                <label><input id="radio" type="radio" name="Reason" value="inquiry"> General inquiry</label><br>
+                <label><input id="radio" type="radio" name="Reason" value="feedback"> Providing feedback</label><br>
+                <label><input id="radio" type="radio" name="Reason" value="other"> Other (please specify)</label><br>
+                <label><input type="text" id="date" name="Date" readonly></label>
+                <textarea id="other-reason" placeholder="Specify if other reason" name="Reason2"></textarea>
+                <input id="pole-submit" type="submit" value="Submit" onclick="Pole_Close()">
+            </form>
+        </div>
+        
+
+        <div class="Bottom-div">
+            <div class="bottom-div-img">
+                <img src="images/Html.png" id="bottom-html">
+                <img src="images/Css.png">
+                <img src="images/Js.png">
+            </div>
+            <p>© Ahammad Ali.</p>
+            <a href="#Home">&#9650;</a>
+        </div>
+    </div>
+
+    <div class="side-menu-div">
+        <img class="side-menu-img" src="images/wrong-icon.png" onclick="SideMenuClose()">
+        <a class="side-menu-a1" href="#Home" onclick="SideMenuClose(); NameAppear()">Home</a>
+        <a class="side-menu-a2" href="#About" onclick="SideMenuClose()">About</a>
+        <a class="side-menu-a3" href="#Projects" onclick="SideMenuClose()">Projects</a>
+        <a class="side-menu-a4" href="#Contact" onclick="SideMenuClose()">Contact Me</a>
+    </div>
+
+<script src="Portfolio.js"></script>
+
+</body>
+</html>
