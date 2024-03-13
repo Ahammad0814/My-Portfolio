@@ -168,52 +168,6 @@ function NameAppear() {
     }, 1000)
 }
 
-
-function TechPercentage(buttonClass, textClass, height, percentage) {
-    let buttonElements = document.getElementsByClassName(buttonClass);
-    let textElements = document.getElementsByClassName(textClass);
-    
-    for (let j = 0; j < buttonElements.length; j++) {
-        buttonElements[j].style.visibility = 'visible';
-        buttonElements[j].style.height = height+'px';
-    }
-    for (let h = 0; h < textElements.length; h++) {
-        textElements[h].style.visibility = 'visible';
-    }
-
-    for (let i = 1; i <= percentage; i++) {
-        setTimeout(() => {
-            for (let k = 0; k < textElements.length; k++) {
-                textElements[k].innerHTML = i + '%';
-            }
-        }, 10 * i);
-    }
-}
-
-
-function TechPercentageRemove(buttonClass, textClass) {
-    let buttonElements = document.getElementsByClassName(buttonClass);
-    let textElements = document.getElementsByClassName(textClass);
-    
-    for (let j = 0; j < buttonElements.length; j++) {
-        buttonElements[j].style.visibility = 'hidden';
-        buttonElements[j].style.height = '0px'
-    }
-    
-    for (let i = 80; i >= 0; i--) {
-        setTimeout(() => {
-            for (let k = 0; k < textElements.length; k++) {
-                textElements[k].innerHTML = i + '%';
-            }
-        }, 10 * i);
-    }
-    for (let h = 0; h < textElements.length; h++) {
-        setTimeout(() => {
-            textElements[h].style.visibility = 'hidden';
-        }, 10 * (80 + h));
-    }
-}
-
 function DirectContact(Element) {
     let element = document.getElementById(Element).innerHTML;
     let text = document.querySelector('.direct-contact-title');
