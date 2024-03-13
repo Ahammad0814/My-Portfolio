@@ -417,6 +417,7 @@ a{
 .Website_link span{
     color: #ffff;
     margin-left: 20px;
+    text-decoration: none;
 }
 .git-logo-A{
     width: 30px;
