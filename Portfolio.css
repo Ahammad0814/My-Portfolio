@@ -1004,7 +1004,7 @@ a{
         color: white;
         display: flex;
         flex-direction: column;
-        z-index: 1;
+        z-index: 3;
         transition: 0.5s ease;
     }
     .side-menu-div img{
