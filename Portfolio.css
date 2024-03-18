@@ -695,6 +695,7 @@ a{
     }
     .header_div{
         height: 200px;
+        z-index: 2;
     }
     .Name{
         margin-left: 80px;
@@ -886,7 +887,7 @@ a{
     .project_logo{
         width: 600px;
         height: 600px;
-        border-radius: 40px;
+        border-radius: 70px;
         transition: 0.5s ease;
         margin: 0;
     }
