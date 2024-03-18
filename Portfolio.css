@@ -695,7 +695,7 @@ a{
     }
     .header_div{
         height: 200px;
-        z-index: 2;
+        z-index: 3;
     }
     .Name{
         margin-left: 80px;
