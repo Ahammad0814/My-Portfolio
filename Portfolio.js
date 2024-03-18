@@ -168,6 +168,8 @@ function NameAppear() {
     }, 1000)
 }
 
+
+
 function DirectContact(Element) {
     let element = document.getElementById(Element).innerHTML;
     let text = document.querySelector('.direct-contact-title');
