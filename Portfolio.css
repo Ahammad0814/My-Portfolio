@@ -150,13 +150,13 @@ a{
 .Tech-div{
     display: flex;
     width: 40%;
-    height: 200px;
+    height: 100px;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     font-size: 20px;
     position: absolute;
     left: 130px;
-    bottom: 20px;
+    bottom: 150px;
 }
 .Tech-buttons{
     position: absolute;
@@ -377,6 +377,7 @@ a{
 .project_logo:hover{
     box-shadow: 0px 0px 20px rgba(255, 0, 0)
 }
+
 .Project-name{
     font-size: 30px;
     color: #ffff;
